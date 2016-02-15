@@ -1,0 +1,18 @@
+Exp1:
+W size: 20*20
+	rank: 20
+	K = 3:
+	g_x: diag(X) == diag(W)
+	
+	
+Exp2:
+W size: 20 * 20
+	rank: 20
+	g_x: trace(X) == trace(W)
+	
+Exp3:
+W size: 20*20
+	rank 20
+	rho = 20
+	g_x: Hankel
+	(dual converges but primal does not converge, due to non-convexity)
